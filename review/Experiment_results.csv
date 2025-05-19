@@ -1,0 +1,31 @@
+,,,,Task 1,,,,Task 2.1,,,,Task 2.2,,,,Task 3,,,,Task 4,,,,,Adressed needs,,,,,Total,
+Participant ID,Experiment form,Team,Previous Evalutions present,Task Completion Time,Task Successful,Perception fast,Perception successful,Task Completion Time,Task Successful,Perception fast,Perception successful,Task Completion Time,Task Successful,Perception fast,Perception successful,Task Completion Time,Task Successful,Perception fast,Perception successful,Task Completion Time,Task Successful,Perception fast,Perception successful,UEQ Value,Need 1,Need 2,Need 3,Need 4,Need 5,Task Completion Time,Task Successful
+1,In person,General ORKG ,0,132,1,5,5,375,1,4,5,29,0,5,5,136,1,5,5,188,0,5,5,2,5,4,4,4,5,860,3
+2,In person,General ORKG ,0,125,1,3,5,463,0,1,2,163,1,3,5,60,1,3,5,127,1,3,5,"1,75",5,5,5,5,3,938,4
+3,In person,General ORKG ,0,73,1,5,5,414,1,5,4,328,1,5,5,68,1,5,5,91,1,5,5,"1,38",5,4,4,4,2,974,5
+4,In person,General ORKG ,0,170,1,4,5,343,1,4,5,76,1,4,5,70,1,5,4,138,1,5,5,"1,88",5,4,4,5,2,797,5
+5,In person,Curation & Community Building,2,88,0,4,5,268,1,3,5,58,0,5,5,28,1,5,5,71,1,4,5,"1,88",5,4,5,5,1,513,3
+6,remote,General ORKG ,0,110,1,4,3,499,1,2,4,160,0,4,4,130,0,4,5,280,1,4,2,"0,38",5,2,4,2,2,1179,3
+7,In person,Curation & Community Building,2,136,1,4,5,327,1,4,5,160,1,5,5,175,0,5,5,247,1,5,5,"2,75",5,4,5,4,1,1045,4
+8,In person,General ORKG ,0,84,1,4,5,277,1,4,5,95,1,4,5,23,0,5,5,79,1,5,5,"2,13",5,5,4,5,1,558,4
+9,In person,Curation & Community Building,1,96,1,5,5,330,1,4,3,73,1,4,4,86,1,4,5,92,1,5,5,"2,38",5,4,5,5,1,677,5
+10,remote,Curation & Community Building,2,69,1,5,5,357,1,4,5,316,1,4,5,72,1,5,5,130,1,5,5,"2,25",5,5,5,5,1,944,5
+11,remote,Curation & Community Building,2,122,1,5,5,403,1,4,5,300,1,3,5,80,1,5,5,137,1,4,5,"2,5",5,5,5,5,3,1042,5
+12,remote,Curation & Community Building,2,101,0,5,5,615,1,4,5,300,0,5,5,46,0,5,5,65,1,5,5,2,4,5,5,5,"3,5",1127,2
+13,In person,General ORKG ,0,152,1,5,5,571,1,3,5,142,1,5,5,101,1,5,5,315,0,5,5,2,5,5,5,5,1,1281,4
+14,remote,General ORKG ,0,170,1,3,4,298,1,4,5,171,1,3,5,81,1,5,5,210,1,4,5,"2,38",5,5,5,5,1,930,5
+15,In person,General ORKG ,1,109,1,3,4,883,1,3,3,984,1,2,3,419,1,4,5,86,1,5,5,"1,25",4,5,4,4,1,2481,5
+Mean values,,,,"115,8",,,,"428,2",,,,"223,6666667",,,,105,,,,"150,4",,,,"1,925",,,,,,,
+Standard deviation,,,,"32,15631464",,"0,7988086367","0,5936168397","162,5050329","0,2581988897","0,9904304019","0,9856107606","232,5024321","0,4577377082","0,9611501047","0,5936168397","95,80560676","0,4577377082","0,6172133998","0,2581988897","79,85057474","0,3518657753","0,632455532","0,7745966692","0,5833458502","0,3518657753","0,8280786712","0,5070925528","0,8338093878","1,227657467",,
+Median values,,,,110,1,4,5,375,1,4,5,160,1,4,5,80,1,5,5,130,1,5,5,,5,5,5,5,1,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Likert Scales,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Strongly disagree,Neutral,Strongly agree,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+1,3,5,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Task Completion Time in [minutes:seconds],,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

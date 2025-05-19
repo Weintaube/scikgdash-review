@@ -1,0 +1,27 @@
+stages:
+  - build
+  - package-build
+  - package-test
+  - publish
+
+variables:
+  DOCKER_BUILD_TOOL: dind
+  DOCKER_PROD_PUBLISH_STRATEGY: auto
+  # The following line be removed after solving #3, see https://gitlab.com/TIBHannover/orkg/scikgdash/-/issues/3
+  DOCKER_HEALTHCHECK_DISABLED: true
+
+include:
+  # gitlab-ci-docker component documentation: https://to-be-continuous.gitlab.io/doc/ref/docker/
+  - component: $CI_SERVER_FQDN/to-be-continuous/docker/gitlab-ci-docker@6.1.7
+
+.docker-base:
+  parallel:
+    matrix:
+      # Frontend
+      - DOCKER_FILE: "Dockerfile"
+        DOCKER_SNAPSHOT_IMAGE: "$CI_REGISTRY_IMAGE/curation-dashboard-frontend/snapshot:$CI_COMMIT_REF_SLUG"
+        DOCKER_RELEASE_IMAGE:  "$CI_REGISTRY_IMAGE/curation-dashboard-frontend:$CI_COMMIT_REF_NAME"
+      # Backend
+      - DOCKER_FILE: "scikgdash-backend/Dockerfile"
+        DOCKER_SNAPSHOT_IMAGE: "$CI_REGISTRY_IMAGE/curation-dashboard-backend/snapshot:$CI_COMMIT_REF_SLUG"
+        DOCKER_RELEASE_IMAGE:  "$CI_REGISTRY_IMAGE/curation-dashboard-backend:$CI_COMMIT_REF_NAME"

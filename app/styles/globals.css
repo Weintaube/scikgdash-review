@@ -1,0 +1,35 @@
+/* styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #e86161;
+  --color-primary-daker: #a84545;
+  --color-secondary: #80869b;
+  --color-light: #e9ebf2;
+  --color-lighter: #f8f9fb;
+  --color-light-darker: #dbdde5;
+  --color-dark: #5b6176;
+}
+
+body {
+  color: var(--color-dark);
+  background: var(--color-light);
+  padding: 0;
+  font-size: 20px;
+}
+
+a{
+  color:var(--color-primary)
+}
+a:hover{
+  text-decoration: underline;
+  color: var(--color-primary-daker)
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
