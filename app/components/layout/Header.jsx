@@ -54,7 +54,7 @@ export default function Header() {
           <Gitlab className="h-6 w-6" />
         </Link>
 
-        <Link href="mailto:lena.john@tib.eu" className="hover:text-primary">
+        <Link href="mailto:info@orkg.org" className="hover:text-primary">
           <Mail className="h-6 w-6" />
         </Link>
       </div>
